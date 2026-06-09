@@ -7,38 +7,43 @@
 body {
   background-color: hsl(210, 46%, 95%);
   display: flex;
-  justify-content: center;
-  align-items: stretch;
   min-height: 100vh;
+  padding: 50px;
+  justify-content: center;
 }
 
 #grid {
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto auto;
-  display: grid;
-  gap: 24px;
-  padding: 50px;
-  max-width: 1400px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    display: grid;
+    gap: 24px;
+    padding: 40px;
+    max-width: 1400px;
+    width: 100%;
+    flex: 1;
 }
 
 .container {
   border-radius: 10px;
-  padding: 20px;
+  padding: 25px;
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+  align-content: center;
 }
 
 .profile {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 12px;
   margin-bottom: 16px;
+  margin-top: -15px;
 }
+
+
 
 .profile img {
   width: 35px;
   height: auto;
   border-radius: 50%;
-  object-fit: cover;
 }
 
 .profile div {
@@ -53,7 +58,7 @@ body {
   background-color: hsl(263, 55%, 52%);
   background-image: url("images/bg-pattern-quotation.svg");
   background-repeat: no-repeat;
-  background-position: top right 10%;
+  background-position: top right 20%;
 }
 
 .Jonathan {
@@ -69,7 +74,7 @@ body {
   background-color: white;
   display: flex;
   flex-direction: column;
-  width: 230px;
+  /* width: 230px; */
 }
 
 .Jeanette {
@@ -97,14 +102,18 @@ body {
 
 .highlight {
   font-size: 16px;
-  font-weight: bold;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  max-width: 50ch;
   margin-bottom: 12px;
 }
 
 .quote {
   font-size: 13px;
-  opacity: 0.7;
+  opacity: 0.5;
   font-family: "Barlow Semi Condensed", sans-serif;
   font-weight: 500;
   font-style: normal;
+  max-width: 70ch;
 }
