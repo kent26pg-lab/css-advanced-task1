@@ -125,13 +125,20 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
+  body {
+    align-items: center;
+  }
+
   #grid {
     grid-template-columns: 1fr;
   }
-   .Daniel, .Jonathan, .Kira, .Jeanette, .Patrick {
+  .Daniel,
+  .Jonathan,
+  .Kira,
+  .Jeanette,
+  .Patrick {
     grid-column: auto;
     grid-row: auto;
     min-width: 360px;
   }
 }
-   
