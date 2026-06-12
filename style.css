@@ -143,6 +143,5 @@ body {
   .Patrick {
     grid-column: auto;
     grid-row: auto;
-    min-width: 360px;
   }
 }
