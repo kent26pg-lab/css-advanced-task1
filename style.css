@@ -127,6 +127,7 @@ body {
 @media only screen and (max-width: 480px) {
   body {
     align-items: center;
+    padding: 20px;
   }
 
   #grid {
