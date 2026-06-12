@@ -127,11 +127,11 @@ body {
 @media only screen and (max-width: 480px) {
   #grid {
     grid-template-columns: 1fr;
+    padding: 30px;
   }
    .Daniel, .Jonathan, .Kira, .Jeanette, .Patrick {
     grid-column: auto;
     grid-row: auto;
-    width: 400px;
   }
 }
    
