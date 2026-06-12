@@ -131,6 +131,7 @@ body {
    .Daniel, .Jonathan, .Kira, .Jeanette, .Patrick {
     grid-column: auto;
     grid-row: auto;
+    width: 400px;
   }
 }
    
