@@ -126,15 +126,13 @@ body {
 
 @media only screen and (max-width: 480px) {
   body {
-    align-items: center;
-    justify-content: center;
+    padding: 10px;
   }
 
   #grid {
     grid-template-columns: 1fr;
      padding: 10px;
     width: 100%;
-    margin: auto;
   }
   .Daniel,
   .Jonathan,
@@ -143,5 +141,10 @@ body {
   .Patrick {
     grid-column: auto;
     grid-row: auto;
+  }
+
+   .highlight,
+  .quote {
+    max-width: 100%;
   }
 }
